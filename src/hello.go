@@ -6,7 +6,7 @@ import "fmt"
 
 //toda pagina main precisa de sua função correspondente
 func main(){
-	fmt.Println("Ola Mundo!");
+	fmt.Println("Ola Mundo!")
 }
 
 //go build hello.go Compila o script
