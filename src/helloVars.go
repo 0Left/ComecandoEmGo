@@ -12,7 +12,7 @@ func main(){
 
 	//declaração longa + atribuição
 	var idadeInt int = 23;
-	var nota float32 = 1.0;
+	var nota float32 = 1.5;
 
 	//declaração longa (var + nome + tipo)
 	var justDeclared string;
