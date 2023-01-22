@@ -20,7 +20,7 @@ func main(){
 	//declaração com auto atribuiçãol de tipos (usar com tipos faceis)
 	var nome = "Pedro";
 
-	//declaração dinamica (nome := valor)
+	//declaração curta (nome := valor)
 	idadeDin := 10
 
 	//printa tudo pra ver, com os tipos
