@@ -9,5 +9,5 @@ func main(){
 	fmt.Println("Ola Mundo!");
 }
 
-//go build hello.go cria um executavel
-//go run hello.go executa o script
+//go build hello.go Compila o script
+//go run hello.go Compila e executa o script
