@@ -1,8 +1,11 @@
-//Sempre o arquivo principal precisa de um desses para indicar ser a pagina central
+// Sempre o arquivo principal precisa de um desses para indicar ser a pagina central
 package main
 
 //Importa o pacote para usar o PrintLn
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 //toda pagina main precisa de sua função correspondente
 func main(){
@@ -19,6 +22,10 @@ func main(){
 	fmt.Println("Ola idadeInt!",idadeInt);
 	fmt.Println("Ola nota!",nota);
 	fmt.Println("Ola idadeDin!",idadeDin);
+
+	fmt.Println("My type is",reflect.TypeOf(justDeclared));
+	fmt.Println("My type is",reflect.TypeOf(idadeInt));
+	fmt.Println("My type is",reflect.TypeOf(nota));
 }
 
 //; não é obrigatório mas ja é quase um reflexo meu, malz.
